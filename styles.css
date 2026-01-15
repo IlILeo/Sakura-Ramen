@@ -1,0 +1,244 @@
+body, html {
+    scroll-behavior: smooth;
+    font-family: 'Economia', 'Raleway';
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.img-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/img/hero_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.img-2 {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 24px;
+    left: 10%;
+    z-index: 2;
+}
+
+.img-span {
+    margin-top: 64px;
+    width: 128px;
+}
+
+.img-7, .img-8, .img-9 {
+    width: 352px;
+    height: 352px;
+}
+
+.img-10 {
+    width: 24px;
+    height: 24px;
+}
+
+.img-11, .img-12, .img-13 {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.image-container {
+    background-image: url('./assets/img/section_our_menu_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.menu {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 80px;
+    color: #9F0908;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 64px;
+}
+
+.menu-overlay {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    color: #9F0908;
+    font-size: 80px;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+        
+.menu-item {
+    display: flex;
+    padding-left: 10%;
+    gap: 80px;
+    margin-bottom: 56px;
+}
+
+.menu-item-2 {
+    display: flex;
+    padding-right: 10%;
+    gap: 80px;
+    margin-bottom: 56px;
+    flex-direction: row-reverse;
+}
+
+.menu-item-3 {
+    display: flex;
+    padding-left: 10%;
+    gap: 80px;
+}
+
+.menu-table {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 32px;
+    color: #675E54;
+    margin-bottom: 8px;
+}
+        
+.menu-table td:first-child {
+    padding-right: 200px;
+}
+        
+.menu-table-right {
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 32px;
+    color: #675E54;
+}
+        
+.menu-table-right td:first-child {
+    padding-right: 200px;
+}
+        
+.Speisekarte {
+    font-family: "Economica";
+    font-weight: bold;
+    font-size: 56px;
+    white-space: nowrap;
+    margin-bottom: 16px;
+
+}
+
+.Speisekarte-2 {
+    font-family: "Economica";
+    font-weight: bold;
+    font-size: 56px;
+    white-space: nowrap;
+    margin-bottom: 16px;
+}
+
+.span {
+    font-family: "Economica";
+    font-weight: bold;
+    color: black;
+    font-size: 56px;
+    margin-bottom: 120px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.order {
+    position: absolute;
+    top: 32px;
+    right: 10%;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.order a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.order a {
+    color: white;
+    text-decoration: none;
+    margin: 24px;
+}
+
+.phone-container {
+    display: flex;
+    align-items: center;
+    background-color: #9F0908;
+    border: 2px solid white;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.phone-container img {
+    width: 24px;
+    height: 24px;
+    color: white;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.phone-container a {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.main-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.headline {
+    font-family: "Raleway";
+    font-weight: bold;
+    color: white;
+    font-size: 96px;
+    margin-bottom: 0;
+}
+
+.ramen {
+    font-family: "Raleway";
+    color: white;
+    font-size: 24px;
+}
+
+.LOCATIONS {
+    font-family: "Economica";
+    font-weight: bold;
+    font-size: 80px;
+    color: #9F0908;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 8px;
+}
+
+.datenschutz {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0A141E;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 114px;
+}
+        
+.address {
+    font-family: 'Raleway';
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+}
